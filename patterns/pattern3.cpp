@@ -1,27 +1,19 @@
-/*
-4 7 12 13 3 
-4 7 12 13 3 
-4 7 12 13 3 
-4 7 12 13 3 
-4 7 12 13 3  */
+/* Right-Angled Number Pyramid
+1
+1 2
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+*/
 
 #include <iostream>
 using namespace std;
-int main()
-{
-
-    int arr[5] = {3,13,12,7,4};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    for (int i = 0; i < 5; i++)
-    {
-
-        for (int j = n-1; j>=0; j--)
-        {
-            cout << arr[j] << " ";
+int main(){
+    for(int i=1; i<=5;i++){
+        for(int j=1;j<=i;j++){
+            cout<<j<<" ";
         }
-
-        cout << endl;
+        cout<<endl;
     }
 
     return 0;
