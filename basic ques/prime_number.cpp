@@ -11,10 +11,10 @@ void isPrime(int n){
             count++;
             return;
         }
-
+        
+        cout << n <<" ";
         
     }
-    cout << n <<" ";
 }
 
 int main()
