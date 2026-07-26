@@ -16,7 +16,7 @@ int main()
     while (num)
     {
         int rem = num % 10; //taking the remainder out
-        sum=sum+rem*pow(2,mul); //sum will give the actual decimal number or simple-> rem*mul
+        sum=sum+rem*pow(8,mul); //sum will give the actual decimal number or simple-> rem*mul
         num = num / 10; //removing the last digit
         mul++; //incrementing the mul variable or mul*2
     }
